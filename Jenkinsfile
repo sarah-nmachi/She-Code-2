@@ -1,10 +1,9 @@
 pipeline {
-   environment {
+    environment {
     registry = "sarahnmachi/vincent2.0"
     registryCredential = 'Docker'
     dockerImage = ''
   }
-   
     agent any
      tools {nodejs "nodejs"}
     stages {
@@ -18,7 +17,8 @@ pipeline {
                 sh 'npm install' 
             }
         }
-      stage('Building image') {
+      
+         stage('Building image') {
       steps{
         script {
           dockerImage = docker.build registry + ":$BUILD_NUMBER"
