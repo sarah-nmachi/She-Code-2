@@ -11,8 +11,8 @@ COPY package.json /app/
 
 RUN npm install
 
-COPY public /app/public
-COPY src /app/src
+
+COPY node_modules /app/node_modules
 COPY jenkins /app/jenkins
 EXPOSE 3000
 CMD [ "npm", "start" ]
