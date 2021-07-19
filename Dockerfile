@@ -13,6 +13,6 @@ RUN npm install
 
 
 COPY node_modules /app/node_modules
-COPY jenkins /app/jenkins
+COPY Jenkins /app/Jenkins
 EXPOSE 3000
 CMD [ "npm", "start" ]
