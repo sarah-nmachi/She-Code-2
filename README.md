@@ -31,6 +31,7 @@ Created a Docker file in my Github
 Installed a Docker Plugin in my Jenkins server
 Installed Docker also in my Linux VM
 Then Build again as seen in the below screenshot.
+
 ## Notes
 Username
 Password
@@ -39,8 +40,11 @@ If the server isn't available, that means my azure credit finished before the as
 
 ## Ref
 https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04
+
 https://www.jenkins.io/doc/book/pipeline/syntax/
+
 https://docs.cloudbees.com/docs/admin-resources/latest/pipeline-syntax-reference-guide/declarative-pipeline
+
 https://docs.docker.com/engine/install/ubuntu/
 
 
